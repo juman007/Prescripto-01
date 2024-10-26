@@ -364,7 +364,7 @@ const cancelAppointment = async (req, res) => {
 // API to make payment pf appointment using stripe
 const paymentStripe = async (req, res) => {
    try {
-      const frontend_url = "http://localhost:5173";
+      const frontend_url = "https://prescripto-frontend-theta.vercel.app";
       const { appointmentId } = req.body;
 
       // Fetch appointment details from the database
