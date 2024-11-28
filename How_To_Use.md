@@ -1,7 +1,7 @@
 
 # Project Overview
 
-Prescripto is a full-stack doctor appointment system that supports three roles: Admin, Doctor, and Patient. Each role has specific functionality, offering a seamless platform for managing appointments.
+Prescripto is a full-stack doctor appointment system built using the MERN stack (MongoDB, Express.js, React, Node.js) and Tailwind CSS for responsive and modern UI design. It supports three roles: Admin, Doctor, and Patient, each with tailored functionalities to ensure efficient appointment management.
 
 ### Links to Deployment
 ```bash 
@@ -25,6 +25,31 @@ Password: juman@123
 Password: 123456789
 ```
 
+## General Features
+
+- **Role-Based Access Control**:
+  - Tailored interfaces and functionalities for Admin, Doctor, and Patient roles.
+  
+- **Responsive Design**:
+  - Fully responsive user interface created with Tailwind CSS for seamless user experience on any device.
+
+
+## Patient Functionality
+
+- **Login and Registration**:
+  - Patients can create an account or log in to access the system.
+  
+- **Doctor Selection**:
+  - Browse and select a doctor based on availability and specialization.
+
+- **Appointment Booking**:
+  - Schedule an appointment with the selected doctor
+  
+- **Payment Options**:
+  - Choose between online and offline payment methods.
+  
+
+
 ## Admin Functionality
 
 - **Add Doctor**:
@@ -38,6 +63,7 @@ Password: 123456789
 - **Doctor Management**:
   - View a list of all registered doctors.
   - Set doctor availability as active or inactive.
+
 
   ## Doctor Functionality
 
